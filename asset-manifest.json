@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/curateus/static/css/main.66ba3cb1.chunk.css",
+    "main.js": "/curateus/static/js/main.dba8e68b.chunk.js",
+    "main.js.map": "/curateus/static/js/main.dba8e68b.chunk.js.map",
+    "runtime-main.js": "/curateus/static/js/runtime-main.177ab1e6.js",
+    "runtime-main.js.map": "/curateus/static/js/runtime-main.177ab1e6.js.map",
+    "static/js/2.9285e450.chunk.js": "/curateus/static/js/2.9285e450.chunk.js",
+    "static/js/2.9285e450.chunk.js.map": "/curateus/static/js/2.9285e450.chunk.js.map",
+    "index.html": "/curateus/index.html",
+    "static/css/main.66ba3cb1.chunk.css.map": "/curateus/static/css/main.66ba3cb1.chunk.css.map",
+    "static/js/2.9285e450.chunk.js.LICENSE.txt": "/curateus/static/js/2.9285e450.chunk.js.LICENSE.txt",
+    "static/media/bbc.c0d33ceb.jfif": "/curateus/static/media/bbc.c0d33ceb.jfif",
+    "static/media/hungLee.3a442361.jfif": "/curateus/static/media/hungLee.3a442361.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.177ab1e6.js",
+    "static/js/2.9285e450.chunk.js",
+    "static/css/main.66ba3cb1.chunk.css",
+    "static/js/main.dba8e68b.chunk.js"
+  ]
+}

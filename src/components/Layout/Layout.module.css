@@ -1,0 +1,13 @@
+.layout {
+  display: grid;
+  /* grid-template-areas: "sidebar main"; */
+  grid-template-columns: 18rem 1fr;
+  grid-column-gap: 3rem;
+  padding: 1.5rem;
+}
+
+@media (max-width: 58em) {
+  .layout {
+    display: block;
+  }
+}

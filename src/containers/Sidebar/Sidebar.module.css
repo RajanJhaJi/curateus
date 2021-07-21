@@ -1,0 +1,42 @@
+.sidebar {
+  font-size: 1.2rem;
+}
+
+.sideUpperMenu {
+  padding-bottom: 1rem;
+  box-shadow: 0 1px var(--primary-color-light);
+}
+
+li {
+  list-style: none;
+  margin: 0.7rem auto;
+}
+
+.sideItem {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary-heading-color-dark);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.sideLogo {
+  margin-right: 1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.sideHeading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.alert {
+  color: var(--primary-heading-color-dark);
+  margin-left: 1rem;
+}

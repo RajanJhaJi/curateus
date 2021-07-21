@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* overflow-y: auto; */
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px*/
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color-dark: #3036d6;
+  --primary-color-light: #e9f0f5;
+  --primary-heading-color-dark: #65676c;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* for common styling in app */
+
+.btn-primary {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.5rem 2.5rem;
+  color: #fff;
+  background-color: var(--primary-color-dark);
+}
+
+.highlight-yellow {
+  background-color: #fee6c1;
+  border-radius: 5px;
+}
+
+.highlight-blue {
+  background-color: var(--primary-color-light);
+  border-radius: 5px;
+}
+
+.notification {
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 0 0.6rem;
+  border-radius: 40%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 58em) {
+  body {
+    font-size: 1.2rem;
+  }
+  .side-bar {
+    display: none;
+  }
+
+  .toggle-bar {
+    display: block;
+    position: fixed;
+    min-width: 40%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    padding: 2.5rem;
+    animation: slidein 1s;
+  }
+}
+
+/* Animations in the app */
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

@@ -2,11 +2,18 @@ import React from "react";
 import styles from "./SearchBar.module.css";
 import { FiSearch, FiArrowDown } from "react-icons/fi";
 
-const SearchBar = () => {
+const SearchBar = (props) => {
+  // function changeHandler(event) {
+  //   console.log(event.target.value);
+  // }
   return (
     <div className={styles.search}>
       <div className={styles.searchInput}>
-        <input placeholder="place any Url here and press enter to save it." />
+        <input
+          // type="search"
+          placeholder="place any Url here and press enter to save it."
+          onChange={props.inputChangeHandler}
+        />
         <div className={styles.searchBtns}>
           <span>X</span>
           <span>K</span>

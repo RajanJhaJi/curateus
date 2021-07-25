@@ -20,7 +20,7 @@ const Main = () => {
             .toLowerCase()
             .split(" ")
             .join(" ")
-            .includes(e.target.value);
+            .includes(e.target.value.toLowerCase());
         });
       })
     );
